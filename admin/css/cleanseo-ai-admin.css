@@ -1,0 +1,235 @@
+.cleanseo-ai-meta-box {
+    padding: 12px;
+}
+
+.cleanseo-ai-field {
+    margin-bottom: 20px;
+}
+
+.cleanseo-ai-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.cleanseo-ai-field input[type="text"],
+.cleanseo-ai-field textarea {
+    width: 100%;
+}
+
+.cleanseo-ai-char-count {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #666;
+}
+
+.cleanseo-ai-char-count.warning {
+    color: #f0ad4e;
+}
+
+.cleanseo-ai-char-count.error {
+    color: #d9534f;
+}
+
+.cleanseo-ai-actions {
+    margin: 20px 0;
+}
+
+.cleanseo-ai-actions .button {
+    margin-right: 10px;
+}
+
+.cleanseo-ai-preview {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cleanseo-ai-preview h4 {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: #23282d;
+}
+
+.cleanseo-ai-preview-content {
+    font-family: Arial, sans-serif;
+}
+
+.cleanseo-ai-preview-title {
+    color: #1a0dab;
+    font-size: 18px;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.cleanseo-ai-preview-url {
+    color: #006621;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.cleanseo-ai-preview-description {
+    color: #545454;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.cleanseo-ai-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.cleanseo-ai-stat-box {
+    flex: 1;
+    min-width: 250px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cleanseo-ai-stat-box h3 {
+    margin: 0 0 15px 0;
+    font-size: 16px;
+    color: #23282d;
+}
+
+.cleanseo-ai-stat-box p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.cleanseo-ai-stat-box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cleanseo-ai-stat-box li {
+    margin: 5px 0;
+    color: #666;
+}
+
+.cleanseo-ai-view-details {
+    cursor: pointer;
+}
+
+.cleanseo-ai-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 160000;
+}
+
+.cleanseo-ai-modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 800px;
+    max-height: 80vh;
+    overflow-y: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.cleanseo-ai-modal-header {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cleanseo-ai-modal-header h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #23282d;
+}
+
+.cleanseo-ai-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #666;
+}
+
+.cleanseo-ai-modal-body {
+    margin-bottom: 20px;
+}
+
+.cleanseo-ai-modal-footer {
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    text-align: right;
+}
+
+.cleanseo-ai-loading {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+}
+
+.cleanseo-ai-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #3498db;
+    border-radius: 50%;
+    animation: cleanseo-ai-spin 1s linear infinite;
+}
+
+@keyframes cleanseo-ai-spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.cleanseo-ai-notice {
+    display: none;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.cleanseo-ai-notice.success {
+    background: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+}
+
+.cleanseo-ai-notice.error {
+    background: #f2dede;
+    border: 1px solid #ebccd1;
+    color: #a94442;
+}
+
+.cleanseo-ai-notice.warning {
+    background: #fcf8e3;
+    border: 1px solid #faebcc;
+    color: #8a6d3b;
+}
+
+.cleanseo-ai-notice.info {
+    background: #d9edf7;
+    border: 1px solid #bce8f1;
+    color: #31708f;
+} 

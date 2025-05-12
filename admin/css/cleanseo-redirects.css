@@ -1,0 +1,171 @@
+.cleanseo-redirects-container {
+    margin: 20px;
+    max-width: 1200px;
+}
+
+.cleanseo-redirects-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cleanseo-redirects-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #1d2327;
+}
+
+.cleanseo-redirects-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.cleanseo-redirects-form .form-row {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.cleanseo-redirects-form input[type="text"],
+.cleanseo-redirects-form select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.cleanseo-redirects-form input[type="text"]:focus,
+.cleanseo-redirects-form select:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: none;
+}
+
+.cleanseo-redirects-form button {
+    padding: 8px 16px;
+    background: #2271b1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+.cleanseo-redirects-form button:hover {
+    background: #135e96;
+}
+
+.cleanseo-redirects-list {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.cleanseo-redirects-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cleanseo-redirects-list th {
+    text-align: left;
+    padding: 12px 15px;
+    background: #f0f0f1;
+    border-bottom: 1px solid #ddd;
+    font-weight: 600;
+    color: #1d2327;
+}
+
+.cleanseo-redirects-list td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+.cleanseo-redirects-list tr:last-child td {
+    border-bottom: none;
+}
+
+.cleanseo-redirects-list .actions {
+    display: flex;
+    gap: 10px;
+}
+
+.cleanseo-redirects-list .edit,
+.cleanseo-redirects-list .delete {
+    padding: 4px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.cleanseo-redirects-list .edit {
+    background: #2271b1;
+    color: #fff;
+}
+
+.cleanseo-redirects-list .delete {
+    background: #dc3232;
+    color: #fff;
+}
+
+.cleanseo-redirects-list .edit:hover {
+    background: #135e96;
+}
+
+.cleanseo-redirects-list .delete:hover {
+    background: #b32d2e;
+}
+
+.cleanseo-redirects-list .status-301 {
+    color: #2271b1;
+}
+
+.cleanseo-redirects-list .status-302 {
+    color: #00a32a;
+}
+
+.cleanseo-redirects-list .hits {
+    text-align: center;
+    font-weight: 600;
+}
+
+.cleanseo-redirects-list .last-accessed {
+    color: #666;
+    font-size: 13px;
+}
+
+.cleanseo-redirects-list .loading {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+.cleanseo-redirects-list .no-redirects {
+    text-align: center;
+    padding: 30px;
+    color: #666;
+    font-style: italic;
+}
+
+/* Responsywność */
+@media screen and (max-width: 782px) {
+    .cleanseo-redirects-form .form-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .cleanseo-redirects-list {
+        overflow-x: auto;
+    }
+    
+    .cleanseo-redirects-list table {
+        min-width: 600px;
+    }
+} 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1016" height="294" viewBox="0 0 1016 294" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Dymek zębatka -->
+    <rect x="0" y="0" width="240" height="240" rx="32" fill="#15304A"/>
+    <g>
+        <circle cx="120" cy="120" r="70" fill="#22C55E"/>
+        <path d="M120 60V180M60 120H180M85 85L155 155M155 85L85 155" stroke="#15304A" stroke-width="12" stroke-linecap="round"/>
+        <circle cx="120" cy="120" r="24" fill="#15304A"/>
+    </g>
+    <!-- Tekst -->
+    <g font-family="Arial, Helvetica, sans-serif" font-weight="bold">
+        <text x="260" y="90" font-size="80" fill="#15304A">CleanSEO</text>
+        <text x="260" y="180" font-size="80" fill="#22C55E">Optimizer</text>
+    </g>
+</svg> 

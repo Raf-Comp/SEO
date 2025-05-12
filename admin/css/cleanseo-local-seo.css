@@ -1,0 +1,173 @@
+/**
+ * Style dla panelu administracyjnego Local SEO
+ */
+
+.cleanseo-admin-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.cleanseo-admin-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="time"],
+select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.opening-hours-grid,
+.edit-opening-hours-grid {
+    display: grid;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.opening-hours-row {
+    display: grid;
+    grid-template-columns: 120px 1fr auto 1fr;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.services-container,
+.payment-methods-container,
+.edit-services-container,
+.edit-payment-methods-container {
+    display: grid;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.service-row,
+.payment-method-row {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.service-row.template,
+.payment-method-row.template {
+    display: none;
+}
+
+.locations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.location-card {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+.location-card h3 {
+    margin: 0 0 1rem;
+    color: #2c3e50;
+}
+
+.location-address {
+    margin: 0 0 1rem;
+    line-height: 1.4;
+}
+
+.location-phone,
+.location-email {
+    margin: 0.5rem 0;
+}
+
+.location-actions {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.cleanseo-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.cleanseo-modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.cleanseo-modal-close {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.description {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 0.25rem;
+}
+
+/* Responsywność */
+@media screen and (max-width: 782px) {
+    .cleanseo-admin-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .opening-hours-row {
+        grid-template-columns: 100px 1fr auto 1fr;
+    }
+
+    .cleanseo-modal-content {
+        width: 95%;
+        margin: 2% auto;
+    }
+} 

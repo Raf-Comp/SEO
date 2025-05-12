@@ -1,0 +1,182 @@
+/* CleanSEO Redirects Styles */
+
+.cleanseo-redirects {
+    margin: 20px 0;
+}
+
+.cleanseo-redirects .redirects-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.cleanseo-redirects .redirects-table th,
+.cleanseo-redirects .redirects-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.cleanseo-redirects .redirects-table th {
+    background: #f9f9f9;
+    font-weight: 600;
+    color: #23282d;
+}
+
+.cleanseo-redirects .redirects-table tr:hover {
+    background: #f5f5f5;
+}
+
+.cleanseo-redirects .redirect-source {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+.cleanseo-redirects .redirect-source:hover {
+    color: #00a0d2;
+    text-decoration: underline;
+}
+
+.cleanseo-redirects .redirect-target {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+.cleanseo-redirects .redirect-target:hover {
+    color: #00a0d2;
+    text-decoration: underline;
+}
+
+.cleanseo-redirects .redirect-type {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.cleanseo-redirects .redirect-type-301 {
+    background: #e7f5ea;
+    color: #46b450;
+}
+
+.cleanseo-redirects .redirect-type-302 {
+    background: #f7fcb9;
+    color: #ffb900;
+}
+
+.cleanseo-redirects .redirect-type-307 {
+    background: #e5f5fa;
+    color: #00a0d2;
+}
+
+.cleanseo-redirects .redirect-type-410 {
+    background: #fbeaea;
+    color: #dc3232;
+}
+
+.cleanseo-redirects .redirect-hits {
+    text-align: center;
+    font-weight: 600;
+}
+
+.cleanseo-redirects .redirect-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.cleanseo-redirects .redirect-actions button {
+    padding: 4px 8px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.cleanseo-redirects .redirect-edit {
+    background: #0073aa;
+    color: #fff;
+}
+
+.cleanseo-redirects .redirect-edit:hover {
+    background: #00a0d2;
+}
+
+.cleanseo-redirects .redirect-delete {
+    background: #dc3232;
+    color: #fff;
+}
+
+.cleanseo-redirects .redirect-delete:hover {
+    background: #f44336;
+}
+
+.cleanseo-redirects .redirect-form {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.cleanseo-redirects .form-group {
+    margin-bottom: 15px;
+}
+
+.cleanseo-redirects label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #23282d;
+}
+
+.cleanseo-redirects input[type="text"],
+.cleanseo-redirects select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cleanseo-redirects .form-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.cleanseo-redirects .error-message {
+    color: #dc3232;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+.cleanseo-redirects .success-message {
+    color: #46b450;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+.cleanseo-redirects .loading {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.cleanseo-redirects .loading::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+} 

@@ -1,0 +1,69 @@
+/* CleanSEO Frontend Styles */
+
+.cleanseo-meta-box {
+    margin: 1em 0;
+    padding: 1em;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cleanseo-meta-box h3 {
+    margin-top: 0;
+    color: #23282d;
+}
+
+.cleanseo-meta-box .meta-field {
+    margin-bottom: 1em;
+}
+
+.cleanseo-meta-box label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+.cleanseo-meta-box input[type="text"],
+.cleanseo-meta-box textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cleanseo-meta-box .description {
+    margin-top: 0.5em;
+    color: #666;
+    font-style: italic;
+}
+
+.cleanseo-meta-box .meta-preview {
+    margin-top: 1em;
+    padding: 1em;
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.cleanseo-meta-box .meta-preview h4 {
+    margin-top: 0;
+    color: #23282d;
+}
+
+.cleanseo-meta-box .meta-preview .preview-title {
+    color: #1a0dab;
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+}
+
+.cleanseo-meta-box .meta-preview .preview-url {
+    color: #006621;
+    font-size: 0.9em;
+    margin-bottom: 0.3em;
+}
+
+.cleanseo-meta-box .meta-preview .preview-description {
+    color: #545454;
+    font-size: 0.9em;
+    line-height: 1.4;
+} 

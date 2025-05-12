@@ -1,0 +1,142 @@
+/* CleanSEO Local SEO Styles */
+
+.cleanseo-local-seo {
+    margin: 20px 0;
+}
+
+.cleanseo-local-seo .location-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.cleanseo-local-seo .location-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.cleanseo-local-seo .location-title {
+    margin: 0;
+    font-size: 1.2em;
+    color: #23282d;
+}
+
+.cleanseo-local-seo .location-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.cleanseo-local-seo .location-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.cleanseo-local-seo .form-group {
+    margin-bottom: 15px;
+}
+
+.cleanseo-local-seo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #23282d;
+}
+
+.cleanseo-local-seo input[type="text"],
+.cleanseo-local-seo input[type="email"],
+.cleanseo-local-seo input[type="tel"],
+.cleanseo-local-seo textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cleanseo-local-seo .form-group.full-width {
+    grid-column: 1 / -1;
+}
+
+.cleanseo-local-seo .map-container {
+    height: 300px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.cleanseo-local-seo .business-hours {
+    margin-top: 20px;
+}
+
+.cleanseo-local-seo .hours-grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.cleanseo-local-seo .hours-row {
+    display: contents;
+}
+
+.cleanseo-local-seo .hours-day {
+    font-weight: 600;
+}
+
+.cleanseo-local-seo .hours-time {
+    display: flex;
+    gap: 10px;
+}
+
+.cleanseo-local-seo .hours-time input {
+    width: 100px;
+}
+
+.cleanseo-local-seo .hours-closed {
+    color: #666;
+    font-style: italic;
+}
+
+.cleanseo-local-seo .button-primary {
+    margin-top: 20px;
+}
+
+.cleanseo-local-seo .error-message {
+    color: #dc3232;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+.cleanseo-local-seo .success-message {
+    color: #46b450;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+.cleanseo-local-seo .loading {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.cleanseo-local-seo .loading::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+} 

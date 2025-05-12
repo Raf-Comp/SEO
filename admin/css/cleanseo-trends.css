@@ -1,0 +1,196 @@
+/**
+ * CleanSEO Optimizer - Style dla modułu Trendy Google
+ * 
+ * @since      1.0.0
+ * @package    CleanSEO_Optimizer
+ */
+
+/* Panel główny */
+.cleanseo-trends-panel {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Nagłówek strony */
+.cleanseo-trends-panel h1 {
+    margin-bottom: 20px;
+}
+
+/* Komunikat o braku klucza API */
+.cleanseo-trends-panel .notice {
+    margin-bottom: 20px;
+}
+
+/* Formularz */
+.cleanseo-trends-panel #cleanseo-trends-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.cleanseo-trends-panel label {
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.cleanseo-trends-panel input[type="text"],
+.cleanseo-trends-panel select {
+    margin-bottom: 10px;
+    min-height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.07);
+}
+
+.cleanseo-trends-panel input[type="text"]:focus,
+.cleanseo-trends-panel select:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+}
+
+/* Kontrolki */
+.cleanseo-trends-panel #cleanseo-trends-controls {
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cleanseo-trends-panel #cleanseo-trends-controls label {
+    margin-right: 10px;
+}
+
+.cleanseo-trends-panel #cleanseo-trends-controls button {
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+/* Stan ładowania */
+.cleanseo-trends-panel #cleanseo-trends-loading {
+    display: flex;
+    align-items: center;
+    background: #f8f8f8;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.cleanseo-trends-panel #cleanseo-trends-loading .spinner {
+    float: none;
+    visibility: visible;
+    margin: 0 10px 0 0;
+}
+
+/* Komunikat o błędzie */
+.cleanseo-trends-panel #cleanseo-trends-error {
+    margin-bottom: 15px;
+}
+
+.cleanseo-trends-panel #cleanseo-trends-error p {
+    margin: 0.5em 0;
+}
+
+/* Kontener wykresu */
+.cleanseo-trends-panel .chart-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    position: relative;
+    height: 400px;
+}
+
+/* Element canvas dla wykresu */
+.cleanseo-trends-panel #cleanseo-trends-chart {
+    width: 100%;
+    height: 400px;
+}
+
+/* Powiązane zapytania */
+.cleanseo-trends-panel #cleanseo-related-queries {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.cleanseo-trends-panel #cleanseo-related-queries h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.cleanseo-trends-panel #cleanseo-related-queries-content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cleanseo-trends-panel #cleanseo-related-queries-content th,
+.cleanseo-trends-panel #cleanseo-related-queries-content td {
+    padding: 8px 10px;
+}
+
+/* Przyciski */
+.cleanseo-trends-panel .button-primary {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: #fff;
+}
+
+.cleanseo-trends-panel .button-primary:hover {
+    background: #135e96;
+    border-color: #135e96;
+}
+
+/* Responsywność dla urządzeń mobilnych */
+@media screen and (max-width: 782px) {
+    .cleanseo-trends-panel #cleanseo-trends-controls {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .cleanseo-trends-panel #cleanseo-trends-controls button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    
+    .cleanseo-trends-panel input[type="text"],
+    .cleanseo-trends-panel select {
+        width: 100%;
+    }
+    
+    .cleanseo-trends-panel .chart-container {
+        height: 300px;
+    }
+    
+    .cleanseo-trends-panel #cleanseo-trends-chart {
+        height: 300px;
+    }
+}
+
+/* Pomocnicze klasy */
+.cleanseo-trends-panel .hidden {
+    display: none;
+}
+
+.cleanseo-trends-panel .flex {
+    display: flex;
+    align-items: center;
+}
+
+.cleanseo-trends-panel .flex-space-between {
+    justify-content: space-between;
+}
+
+.cleanseo-trends-panel .margin-bottom {
+    margin-bottom: 15px;
+}

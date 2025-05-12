@@ -1,0 +1,137 @@
+.cleanseo-admin-content {
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.cleanseo-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cleanseo-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.cleanseo-tabs {
+    display: flex;
+    gap: 2px;
+    background: #f0f0f1;
+    padding: 0;
+    margin: 0;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+}
+
+.cleanseo-tab {
+    padding: 15px 25px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1d2327;
+    transition: all 0.3s ease;
+}
+
+.cleanseo-tab:hover {
+    background: #f6f7f7;
+}
+
+.cleanseo-tab.active {
+    background: #2271b1;
+    color: #fff;
+}
+
+.cleanseo-tab-content {
+    display: none;
+    padding: 30px;
+    background: #fff;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cleanseo-tab-content.active {
+    display: block;
+}
+
+.cleanseo-form-group {
+    margin-bottom: 20px;
+}
+
+.cleanseo-form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.cleanseo-form-group input[type="text"],
+.cleanseo-form-group textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 8px 12px;
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+}
+
+.cleanseo-form-group input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.cleanseo-submit {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #2271b1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+.cleanseo-submit:hover {
+    background: #135e96;
+}
+
+.cleanseo-notice {
+    padding: 12px;
+    margin: 20px 0;
+    border-radius: 4px;
+    display: none;
+}
+
+.cleanseo-notice.success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.cleanseo-notice.error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+@media screen and (max-width: 782px) {
+    .cleanseo-tabs {
+        flex-direction: column;
+    }
+    
+    .cleanseo-tab {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .cleanseo-form-group input[type="text"],
+    .cleanseo-form-group textarea {
+        max-width: 100%;
+    }
+} 
